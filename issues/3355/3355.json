@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "Issue fixed",
+    "ClosedDate": "2009-03-25T04:09:29.147-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hi,\nGrouping is not working for the selected file and any where.\n \nThanks,",
+    "LastUpdatedDate": "2013-05-16T04:06:44.45-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "OpenXMLViewer",
+    "ReportedDate": "2009-03-11T23:30:19.53-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Grouping is not woking",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 3355
+  },
+  "FileAttachments": [
+    {
+      "FileId": 1477,
+      "FileName": "Grouping.docx",
+      "DownloadUrl": ".\\1477"
+    }
+  ],
+  "Comments": []
+}

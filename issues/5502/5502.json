@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I am having the bullets on the document but when i am synch my html page from that documet bullets are not comming in html.\n \nPlease help ......\n \nASAP",
+    "LastUpdatedDate": "2014-04-28T02:18:12.037-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "OpenXMLViewer",
+    "ReportedDate": "2010-03-04T21:16:07.34-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Bullet are not working when synch  from document  to html",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 5502
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

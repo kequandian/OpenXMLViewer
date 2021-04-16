@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "1.Open Microsoft Word 2007-->Insert-->Select Conservative Text Box\n2.Save the file.\n3Click on Open Microsoft-OpenXmlViewer Xtensions web link\n4. Upload the file created above.",
+    "LastUpdatedDate": "2017-11-27T15:03:40.217-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "OpenXMLViewer",
+    "ReportedDate": "2008-11-15T00:27:19.193-08:00",
+    "Status": {
+      "Name": "Active",
+      "Id": 2
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Selected Text file is not working.",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 2618
+  },
+  "FileAttachments": [
+    {
+      "FileId": 1218,
+      "FileName": "Insert-Conservative.docx",
+      "DownloadUrl": ".\\1218"
+    }
+  ],
+  "Comments": []
+}

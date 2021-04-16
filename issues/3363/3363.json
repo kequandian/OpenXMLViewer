@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hi,\nAlignment is not working for the attached document.\n \n \nThanks",
+    "LastUpdatedDate": "2017-11-27T15:04:16.923-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "OpenXMLViewer",
+    "ReportedDate": "2009-03-11T23:42:36.07-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Alignment is not working",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 3363
+  },
+  "FileAttachments": [
+    {
+      "FileId": 1485,
+      "FileName": "CoverPage.Docx",
+      "DownloadUrl": ".\\1485"
+    }
+  ],
+  "Comments": []
+}

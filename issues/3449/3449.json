@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Dashed lines are not working properly in Opera for the selected file/any file",
+    "LastUpdatedDate": "2017-11-27T15:04:46.877-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "OpenXMLViewer",
+    "ReportedDate": "2009-03-24T05:28:52.543-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Dashed lines are not working in Opera",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 3449
+  },
+  "FileAttachments": [
+    {
+      "FileId": 1533,
+      "FileName": "Testfeatures DOCX V2.0 M11.docx",
+      "DownloadUrl": ".\\1533"
+    }
+  ],
+  "Comments": []
+}

@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Bullets dont show up in the rendered html page",
+    "LastUpdatedDate": "2013-02-21T16:52:30.557-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "OpenXMLViewer",
+    "ReportedDate": "2008-11-12T20:23:35.143-08:00",
+    "Status": {
+      "Name": "Active",
+      "Id": 2
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Bullets not working",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 2580
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Bullent Number is not working when synch the document from docx to html",
+      "PostedDate": "2010-03-04T21:12:50.683-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T16:52:30.557-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

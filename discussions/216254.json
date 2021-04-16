@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "456270",
+    "ThreadId": "216254",
+    "Html": "Linux: Unable to open docx files in firefox<br>\r\n<br>\r\nInstalled: OpenXMLViewer_linux_firefox.tar<br>\r\nOS: Linux From Scratch 6.6<br>\r\nFirefox: 3.0.1<br>\r\n<br>\r\n(as su)<br>\r\ninstall.sh installed these files:<br>\r\n/usr/lib/mozilla/plugins/DocX2Html.xslt<br>\r\n/usr/local/lib/libTransformationCore.so<br>\r\n/usr/local/lib/libUtility.so<br>\r\n/usr/local/lib/libxalan-c.so<br>\r\n/usr/local/lib/libxalan-c.so.111<br>\r\n/usr/local/lib/libxalan-c.so.111.0<br>\r\n/usr/local/lib/libxalanMsg.so<br>\r\n/usr/local/lib/libxalanMsg.so.111<br>\r\n/usr/local/lib/libxalanMsg.so.111.0<br>\r\n/usr/local/lib/libxerces-c.so<br>\r\n/usr/local/lib/libxerces-c.so.28<br>\r\n/usr/local/lib/libxerces-c.so.28.0<br>\r\n<br>\r\n(as user)<br>\r\nDragging OpenXMLViewer_linux_firefox.xpi to firefox installed these files:<br>\r\n/home/jhalfs/.mozilla/firefox/41sy4e3i.firefox3/extensions/OpenXMLViewer@Codeplex.com/plugins/DocX2Html.xslt<br>\r\n/home/jhalfs/.mozilla/firefox/41sy4e3i.firefox3/extensions/OpenXMLViewer@Codeplex.com/plugins/License.txt<br>\r\n/home/jhalfs/.mozilla/firefox/41sy4e3i.firefox3/extensions/OpenXMLViewer@Codeplex.com/plugins/NPDOCX.so<br>\r\n/home/jhalfs/.mozilla/firefox/41sy4e3i.firefox3/extensions/OpenXMLViewer@Codeplex.com/plugins/readme.txt<br>\r\n<br>\r\nRestarted firefox<br>\r\n<br>\r\nIn firefox, Tools-&gt;Add-ons-&gt;Extensions shows that OpenXMLViewer 1.0 is installed.<br>\r\n<br>\r\nAttempting to open a docx file in firefox presents a pop-up which explains that <br>\r\n&quot;You have chosen to open <br>\r\nDEEPWATER_HORIZON_SYNOPSIS_V2-0.docx<br>\r\nwhich is a: Binary File&quot;<br>\r\n<br>\r\nThe only options are: Cancel / Save File<br>\r\n\r\n",
+    "PostedDate": "2010-06-16T09:57:30.653-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

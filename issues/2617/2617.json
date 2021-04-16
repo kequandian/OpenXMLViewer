@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Text inside Table is not showing properly,Please verify with the attached test file.",
+    "LastUpdatedDate": "2017-11-27T15:03:40.103-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "OpenXMLViewer",
+    "ReportedDate": "2008-11-14T22:58:57.54-08:00",
+    "Status": {
+      "Name": "Active",
+      "Id": 2
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Text inside Table is not showing properly",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 2617
+  },
+  "FileAttachments": [
+    {
+      "FileId": 1217,
+      "FileName": "Table (4).docx",
+      "DownloadUrl": ".\\1217"
+    }
+  ],
+  "Comments": []
+}

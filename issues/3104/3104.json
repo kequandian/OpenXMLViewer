@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "This is the C3 and XSLT only.\n \nDocX2HtmlConversion.cs\nDocX2Html.xslt\n \nMany dont need the heavy c++ code and prefer the lightweight XLT way of dong it.",
+    "LastUpdatedDate": "2013-02-21T16:52:25.623-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "OpenXMLViewer",
+    "ReportedDate": "2009-01-28T02:55:52.433-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Include Basic xlt convertor as part of Source Code",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 3104
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "I have the code for this, and have fixed the locking bugs. It works very well.\r\n\r\nLet me know if you want it.",
+      "PostedDate": "2009-01-28T02:58:01.357-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T16:52:25.623-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "260736",
+    "ThreadId": "76263",
+    "Html": "<p>Hi, I am trying to paginate the output html from the docx2Html.xslt file by parsing the result into an array so that my web pages can be numbered the same as they were in the original word document. From looking at other threads here I know there is no default support for it but I am trying to make an &lt;xsl:template=&quot;customPageBreak&quot;&gt; that I can call each time the text overflows onto the next page.</p>\r\n<p>I know I can inject a tag into the &lt;xsl:template match=&quot;w:br&quot;&gt; and the tag shows on the output html but this only happens when a page break is forced in the original document. Also I have created a &lt;xsl:template match=&quot;w:lastRenderedPageBreak&quot;&gt; which injects my custom html tag before the documents last page so now I want to call my customPageBreak template every time the text flows over onto a new page.</p>\r\n<p>Any ideas how I can calculate when the text is due to overflow or any suggestions as to how I might edit the DocX2Html.xslt to calculate it, what variables should I be looking at in there? Is it enough to look for footers or can a document without a footer be missed like that?</p>\r\n<p>Can I look for the w:t element or use the pgSz attribute to calculate it? Any help appreciated.</p>\r\n<p>Thanks in advance.</p>",
+    "PostedDate": "2009-11-25T14:00:47.173-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

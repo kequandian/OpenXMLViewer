@@ -1,0 +1,50 @@
+[
+  {
+    "Id": "181868",
+    "ThreadId": "54009",
+    "Html": "I saw a video from one of the tech guys at microsoft (<a href=\"http://www.youtube.com/watch?v=el-3TKVgX-0\">http://www.youtube.com/watch?v=el-3TKVgX-0</a>) showing how to use this in a web application, but he skipped over the code sections on how to actually implement it.<br>\r\n<br>\r\nI'd like to mock up an example similar to what he did where you have a &quot;Browse&quot; function to locate the docx file, then a simple button to upload and translate the file into html.  Looking through all the source code for this project, I dont see a web application included.<br>\r\n<br>\r\nDo you have an example of how to do this?<br>\r\n<br>\r\nThanks,<br>\r\n<br>\r\n- Dink\r\n",
+    "PostedDate": "2009-04-21T09:52:08.073-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "181896",
+    "ThreadId": "54009",
+    "Html": "Hi,<br>\r\n <br>\r\n The video demonstration that you looked at (<a href=\"http://www.youtube.com/watch?v=el-3TKVgX-0\"><span style=\"color:#3e62a6\">http://www.youtube.com/watch?v=el-3TKVgX-0</span></a>) was a technology demonstrator interface only. The web application was used to demonstrate the feasibility of conversion of docx to html. The latest release (November 2008) has a commandline interface that you can use to convert the docx to html. Do take a look at the documentation section for more details. The Release contains the necessary binaries to try the scenario.<br>\r\n<br>\r\nDo look out for our next release, coming soon, with more features!<br>\r\n<br>\r\nBest regards<br>\r\nAnand\r\n",
+    "PostedDate": "2009-04-21T10:23:32.267-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "181907",
+    "ThreadId": "54009",
+    "Html": "I have played with the commandline interface, but it may not really work for me yet in its current state.<br>\r\n<br>\r\nSince it creates an &quot;XHTML&quot; document instead of just a standard &quot;HTML&quot; document, its not going to work for my application unless I have a listener setup that renames the file to a standard .html extension after its been created (my users are 95% IE, very few use Firefox, and its not practical for us to roll out a process to register the new extension with a browser).<br>\r\n<br>\r\nI'm not a C++ developer (I work in C#), so I dont really understand the code or how to modify it to produce an html (vs. xhtml) file and rebuild the exe (the documentation is incomplete and confusing since it references including files and libraries that apparently aren't already included - not sure why this is).  I would have thought (since this is the most common practice on CodePlex) that the &quot;src&quot; download option would have had all the files neccessary to build the exe...but that may just be my preference on things (not intended to sound like I'm over-complaining).<br>\r\n<br>\r\nIs there an easy process to change the file extension on the outputted file, or will I have to catch and modify it on my own after-the-fact?<br>\r\n<br>\r\n- Dink\r\n",
+    "PostedDate": "2009-04-21T10:45:49.977-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "181914",
+    "ThreadId": "54009",
+    "Html": "Hi,<br>\r\n<br>\r\n We will soon be releasing the next release of the project. The commanline interface has been improved with support for rendering to HTML and XHTML based on the input parameters. I believe that the next release will be very helpful with your scenario. So do keep watching this space.<br>\r\n<br>\r\nBest regards,<br>\r\nAnand\r\n",
+    "PostedDate": "2009-04-21T10:59:13.303-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "181917",
+    "ThreadId": "54009",
+    "Html": "Thanks for the update...it sounds like it would be perfect for what I'm trying to do.<br>\r\n<br>\r\nAny eta on the next release?<br>\r\n<br>\r\n- Dink\r\n",
+    "PostedDate": "2009-04-21T11:01:22.437-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "181920",
+    "ThreadId": "54009",
+    "Html": "ETA is approximately 2 weeks.<br>\r\n<br>\r\n//Anand\r\n",
+    "PostedDate": "2009-04-21T11:06:48.823-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

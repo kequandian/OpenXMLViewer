@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hi,\n \nI am trying to run the command line viewer (from OpenXMLViewer_win_cmd.zip, 3492783 bytes, downloaded 2008/11/27)\nand am getting the error message \"Bad command or file name\", a second or two after \"...DocX2Html.xslt\" is displayed.\n \nClearly, this error message is being produced by Command.Com (and I can force it to go away by setting the COMSPEC\nenvironment variable to a dummy application) but how can I find out what command is being invoked, that is failing?\n \nIf I look through the %TEMP% directory, I can see that various files have been dumped/produced there, including a file\ncalled \"output.xhtml\", which seems to be some sort of translation of the input document. So the translation of the *.docx\ninput seems to be occuring, yet the overall process seems to be stalling as described above. Any ideas?\n \nJoe.",
+    "LastUpdatedDate": "2013-02-21T16:52:26.777-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "OpenXMLViewer",
+    "ReportedDate": "2008-11-27T18:11:13.953-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Bad command or filename",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 2742
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "An Update ...\r\n\r\nWell, I wrote a little application to display the command line parameters being passed to %comspec% and they are :\r\n/c C:\\WINDOWS\\TEMP\\DocX7366526\\output.xhtml\r\n\r\nSo, as 'output.xhtml' isn't an executable file, the \"Bad command or filename\" error is produced.\r\n\r\nThe solution would be to invoke the START launcher, thus :\r\n/c start C:\\WINDOWS\\TEMP\\DocX7366526\\output.xhtml\r\n\r\nThis works for versions of Windows that have START as an internal command and also for versions of Windows that use an external 'start.exe' launcher. I hope this will be given due consideration.\r\n\r\nJoe.\r\n",
+      "PostedDate": "2008-11-30T17:41:23.183-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi JDS,\r\nThe purpose of the OpenXMLViewer.exe is just to generate the xhtml file at the specified destination path. The user has to manually open the file in the browser, for viewing. Please look at the documentation if you need info regarding command line format.\r\n\r\nRegards,\r\nPrashanth",
+      "PostedDate": "2008-12-08T05:05:23.167-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T16:52:26.777-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Backgroung color Alignment is not working properly.Please verify the results for the attached Test Data file.",
+    "LastUpdatedDate": "2017-11-27T15:03:40.35-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "OpenXMLViewer",
+    "ReportedDate": "2008-11-17T01:50:43.42-08:00",
+    "Status": {
+      "Name": "Active",
+      "Id": 2
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Backgroung color Alignment is not working properly.",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 2627
+  },
+  "FileAttachments": [
+    {
+      "FileId": 1221,
+      "FileName": "Microsoft ASP.NET AJAX and SharePoint WebPArts.docx",
+      "DownloadUrl": ".\\1221"
+    }
+  ],
+  "Comments": []
+}

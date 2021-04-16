@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "206281",
+    "ThreadId": "60867",
+    "Html": "<p>Hi,</p>\r\n<p><strong>[Update]&nbsp; </strong>A very basic question here. I would like to use the OpenXMLViewer.exe from a java application (ie not .NET environment).&nbsp; With this in mind</p>\r\n<p>1. Are there any system requirements for using OpenXMLViewer.exe ...and</p>\r\n<p>2. Are there any extra installation steps required ?</p>\r\n<p>Thank You</p>\r\n<p>&nbsp;</p>",
+    "PostedDate": "2009-06-27T20:35:41.007-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "206541",
+    "ThreadId": "60867",
+    "Html": "<p>Hi codebeck,</p>\r\n<p>There is nothing extra required (no .Net environment required) to run the exe. All the necessary files are contained in the parent folder itself. The VC90 runtimes are present in the zip package, which will be referred to, when OpenXMLViewer.exe is invoked.</p>\r\n<p>The only depenancy is that the executable be run from the Openxmlviewer folder containing the dependent dlls, or the PATH variable contains the OpenXMLViewer folder path.</p>\r\n<p>Eg. If OpenXMLViewer_win_cmd.zip is extracted to c:\\OpenXMLViewer folder, then the exe has to be run from c:\\OpenXMLViewer</p>\r\n<p>or</p>\r\n<p>c:\\OpenXMLViewer should be present in the PATH environment variable.</p>\r\n<p>Best regards,</p>\r\n<p>Anand</p>",
+    "PostedDate": "2009-06-29T04:01:22.003-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "206665",
+    "ThreadId": "60867",
+    "Html": "<p>Anand,</p>\r\n<p>Thanks! That is what I was thinking, but I just wanted to be sure.</p>\r\n<p>Leigh</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>",
+    "PostedDate": "2009-06-29T09:35:51.577-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

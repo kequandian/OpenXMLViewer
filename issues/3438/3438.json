@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "For the selected file Column rendering is not working.",
+    "LastUpdatedDate": "2017-11-27T15:04:17.487-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "High",
+      "Severity": 150,
+      "Id": 3
+    },
+    "ProjectName": "OpenXMLViewer",
+    "ReportedDate": "2009-03-24T05:07:08.753-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Column rendering is not working.",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 3438
+  },
+  "FileAttachments": [
+    {
+      "FileId": 1522,
+      "FileName": "Images2.docx",
+      "DownloadUrl": ".\\1522"
+    }
+  ],
+  "Comments": []
+}

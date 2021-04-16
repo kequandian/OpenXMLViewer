@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "The equations are not displayed as per the attached doc.\nEquations with root, Bracket,Matrix etc is incorrect.\nPFA",
+    "LastUpdatedDate": "2017-11-27T15:04:35.763-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "High",
+      "Severity": 150,
+      "Id": 3
+    },
+    "ProjectName": "OpenXMLViewer",
+    "ReportedDate": "2009-03-24T22:34:49.727-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Equations are not being displayed correctly in IE-8",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 3452
+  },
+  "FileAttachments": [
+    {
+      "FileId": 1535,
+      "FileName": "Equations.docx",
+      "DownloadUrl": ".\\1535"
+    }
+  ],
+  "Comments": []
+}

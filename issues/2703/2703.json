@@ -1,0 +1,76 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "For the attached file end of the shape is cutting in th last of the page.",
+    "LastUpdatedDate": "2017-11-27T15:03:41.277-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "High",
+      "Severity": 150,
+      "Id": 3
+    },
+    "ProjectName": "OpenXMLViewer",
+    "ReportedDate": "2008-11-24T06:15:41.393-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Shapes are cutting for the below file",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 2703
+  },
+  "FileAttachments": [
+    {
+      "FileId": 1247,
+      "FileName": "ShapesTest 2.docx",
+      "DownloadUrl": ".\\1247"
+    },
+    {
+      "FileId": 1248,
+      "FileName": "output2.xhtml",
+      "DownloadUrl": ".\\1248"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "Result file added here. In this file text also not in the right place.",
+      "PostedDate": "2008-11-24T06:17:09.797-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2008-11-24T06:17:10.97-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "This issue got fixed and Now it works fine.",
+      "PostedDate": "2008-11-26T04:49:37.927-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T16:52:26.943-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2017-11-27T15:03:41.277-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

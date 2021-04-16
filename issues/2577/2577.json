@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Double underline and dashed underlines in the document are rendered as single underline.\n \nAttached document can reproduce the issue",
+    "LastUpdatedDate": "2013-02-21T16:52:31.067-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "OpenXMLViewer",
+    "ReportedDate": "2008-11-12T20:19:07.8-08:00",
+    "Status": {
+      "Name": "Active",
+      "Id": 2
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Double underline and dashed underline does not work",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 2577
+  },
+  "FileAttachments": [
+    {
+      "FileId": 1187,
+      "FileName": "SimpleFont2.docx",
+      "DownloadUrl": ".\\1187"
+    }
+  ],
+  "Comments": []
+}

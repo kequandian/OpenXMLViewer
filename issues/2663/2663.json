@@ -1,0 +1,76 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "If we upload below file,left side text is cutting.",
+    "LastUpdatedDate": "2017-11-27T15:03:40.887-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "OpenXMLViewer",
+    "ReportedDate": "2008-11-19T20:07:25.847-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Left side text is cutting.",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 2663
+  },
+  "FileAttachments": [
+    {
+      "FileId": 1232,
+      "FileName": "Draft_Technical_Specification_for_Initial_Word_Translator.docx",
+      "DownloadUrl": ".\\1232"
+    },
+    {
+      "FileId": 1238,
+      "FileName": "Draft_Technical_Specification_for_Initial_Word_Translator-11.docx",
+      "DownloadUrl": ".\\1238"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "If we increase left side indent, then the  text are displaying. ",
+      "PostedDate": "2008-11-22T04:16:36.343-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2008-11-22T04:16:37.437-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2008-11-22T04:16:41.063-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T16:52:27.457-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2017-11-27T15:03:40.887-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

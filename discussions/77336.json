@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "264354",
+    "ThreadId": "77336",
+    "Html": "<p>Hi,</p>\r\n<p>&nbsp;&nbsp;&nbsp;&nbsp; I am not a c++ programmer. I downloaded the <strong>OpenXMLViewer</strong> source and tried to build. Some how i managed to build <strong>Utility</strong> project successfully, but i am stuck at <strong>TransformationCore</strong> project. I am getting LNK2019 errors. Is there anything that i need to add/change in the project which is not specified in the &quot;<strong>OpenXMLViewer_Build_Instructions_Windows.rtf</strong>&quot; document or should i re-check the steps that i followed.</p>\r\n<p>&nbsp;&nbsp;&nbsp;&nbsp; If you couldn't help me with the information that i gave, i will give more information. Any help in this regard will be greatly appreciated.</p>\r\n<p>Thanks in advance</p>\r\n<p>Regards,</p>\r\n<p>Sandeep</p>",
+    "PostedDate": "2009-12-07T00:06:06.457-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

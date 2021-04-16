@@ -1,0 +1,56 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "When we upload any file with comments inserted is not working",
+    "LastUpdatedDate": "2013-02-21T16:52:29.893-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "High",
+      "Severity": 150,
+      "Id": 3
+    },
+    "ProjectName": "OpenXMLViewer",
+    "ReportedDate": "2008-11-14T01:30:59.61-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Comments are not working",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 2602
+  },
+  "FileAttachments": [
+    {
+      "FileId": 1204,
+      "FileName": "Comment.docx",
+      "DownloadUrl": ".\\1204"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "The plugin does not support this feature",
+      "PostedDate": "2008-11-20T11:48:01.323-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T16:52:29.893-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

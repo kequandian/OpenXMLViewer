@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "You need to using the IDisposable pattern here:\n \n            try\n            {\n                using (Metro.ZipPackage pack = (Metro.ZipPackage)Metro.ZipPackage.Open(actualArguments[ArgumentCode.InputFile], System.IO.FileMode.Open, System.IO.FileAccess.Read))\n                {\n                    Metro.PackageRelationshipCollection packRels = pack.GetRelationshipsByType(wordDocId);\n..............\n \n \nAND FURTHER DOWN\n \n \n \n                        // write out the HTML.\n \n                        using (System.IO.FileStream target = new System.IO.FileStream(actualArguments[ArgumentCode.OutputFile], System.IO.FileMode.Create))\n                        {\n                            html.WriteTo(target);\n                            target.Flush();\n                        }\n \n                        break;\n \n....",
+    "LastUpdatedDate": "2013-02-21T16:52:25.793-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "OpenXMLViewer",
+    "ReportedDate": "2009-01-25T15:15:07.11-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Program.cs main method is locking files",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 3096
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

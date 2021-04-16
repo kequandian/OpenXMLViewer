@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "The Font for the equations are increased but its not reflecting in Mozilla\nPFA",
+    "LastUpdatedDate": "2017-11-27T15:04:35.61-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "OpenXMLViewer",
+    "ReportedDate": "2009-03-12T02:32:20.287-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Font Size is not as per the Doc",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 3389
+  },
+  "FileAttachments": [
+    {
+      "FileId": 1505,
+      "FileName": "Issue 6.docx",
+      "DownloadUrl": ".\\1505"
+    }
+  ],
+  "Comments": []
+}

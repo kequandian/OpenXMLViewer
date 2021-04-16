@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hi,\n \nTab alignment not proper for the attached document.\n \nThanks,",
+    "LastUpdatedDate": "2017-11-27T15:04:17.213-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "High",
+      "Severity": 150,
+      "Id": 3
+    },
+    "ProjectName": "OpenXMLViewer",
+    "ReportedDate": "2009-03-12T01:21:25.14-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Tab alignment not proper",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 3371
+  },
+  "FileAttachments": [
+    {
+      "FileId": 1491,
+      "FileName": "M1_Shapes_Isosceles_Triangle_v2.0.docx",
+      "DownloadUrl": ".\\1491"
+    }
+  ],
+  "Comments": []
+}

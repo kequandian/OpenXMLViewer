@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "Issues fixed",
+    "ClosedDate": "2009-03-25T04:12:52.163-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "The Background color is not apprearing as in the Word Doc.\nPFA",
+    "LastUpdatedDate": "2013-05-16T04:06:42.213-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "High",
+      "Severity": 150,
+      "Id": 3
+    },
+    "ProjectName": "OpenXMLViewer",
+    "ReportedDate": "2009-03-12T02:27:32.883-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "The Background Color is not appearing in Mozilla",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 3384
+  },
+  "FileAttachments": [
+    {
+      "FileId": 1500,
+      "FileName": "Issue_1.docx",
+      "DownloadUrl": ".\\1500"
+    }
+  ],
+  "Comments": []
+}

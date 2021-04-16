@@ -1,0 +1,61 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Basic underline text in a paragraph is not transformed properly and results in a style with two attribute values:\n \nstyle=\"text-decoration:none underline;\"\n \nMy test document is attached.",
+    "LastUpdatedDate": "2013-02-21T16:52:25.47-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "OpenXMLViewer",
+    "ReportedDate": "2009-03-01T07:34:56.5-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Underlined text is not reansformed correctly",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 3268
+  },
+  "FileAttachments": [
+    {
+      "FileId": 1455,
+      "FileName": "Lipsum.docx",
+      "DownloadUrl": ".\\1455"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "sorry..title should have said \"transformed\"",
+      "PostedDate": "2009-03-01T07:35:35.28-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi Devinrader,\r\nCan you clarify if this is happening with the C++ release build (in Releases tab) or with the C# code?\r\nI could not regenerate this issue on firefox using the latest release. If this is an issue with C# code, we are currently not maintaining the .CS code. We will however make the necessary changes and upload the source by the end of the milestone release.\r\n\r\nRegards,\r\nPrashanth",
+      "PostedDate": "2009-03-03T22:08:22.913-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T16:52:25.47-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

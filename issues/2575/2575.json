@@ -1,0 +1,66 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "When big fonts sizes are used in the document, the top of the fonts overlap with previous line.\n \nAttached file can be used to reproduce the issue.",
+    "LastUpdatedDate": "2017-11-27T15:03:39.53-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "OpenXMLViewer",
+    "ReportedDate": "2008-11-12T20:15:23.313-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Big sized fonts issue",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 2575
+  },
+  "FileAttachments": [
+    {
+      "FileId": 1186,
+      "FileName": "SimpleFont2.docx",
+      "DownloadUrl": ".\\1186"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "Issue parked as this is a browser issue. When line spacing is adjusted to suit bigger fonts, the regular sized font lines spacing also increases. Currently a middle value is set for the line spacing, to support both relatively big font sizes and regular font sizes.",
+      "PostedDate": "2008-11-14T03:53:20.62-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2008-11-14T03:53:22.463-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T16:52:31.477-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2017-11-27T15:03:39.53-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

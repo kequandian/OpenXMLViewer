@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "481376",
+    "ThreadId": "223819",
+    "Html": "I am very much interested in trying out this software.\r\n\r\nPlease let me know if it is possible to install this in ubuntu\r\n\r\ngautham",
+    "PostedDate": "2010-08-17T06:15:07.003-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "519681",
+    "ThreadId": "223819",
+    "Html": "\r\n<p>Hi,</p>\r\n<p>It should be possible to install the same on Ubuntu. Follow the instructions in the installer package and you should be good to go!</p>\r\n<p>Regards</p>\r\n<p>Anand</p>\r\n",
+    "PostedDate": "2010-11-09T16:17:53.377-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

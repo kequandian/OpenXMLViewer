@@ -1,0 +1,25 @@
+<div class="wikidoc"><h2>Documentation</h2>The following documentation is available for the OpenXML Viewer plug-in and command line interface. <br />
+<ul><li><a href="http://www.codeplex.com/OpenXMLViewer/Wiki/View.aspx?title=Installation%20Guidelines">Installation Guidelines for Linux and Windows</a> - This page contains the installation steps and details required to install the Firefox browser plugin add-on for Windows and Linux.</li>
+<li><a href="http://www.codeplex.com/OpenXMLViewer/Wiki/View.aspx?title=Functional%20Overview">Functional overview of the OpenXMLViewer plugin</a> - This page provides an overview of the basic use cases along with a screen action guide for using the browser plug-in.</li>
+<li><a href="http://www.codeplex.com/OpenXMLViewer/Wiki/View.aspx?title=Technical%20Overview&amp;referringTitle=Documentation">Technical and architectural overview</a> - The technical and architectural overview of the browser plug-in is present here. The architecture considers the usage of the core transformation from docx to html in non-browser and cross browser environments.</li></ul>
+<h2>Testing </h2>Testing was conducted on the application at different levels.<br /><br /><b>Functional Testing</b><br />At the functional level, the basic functionality was tested for correct reproduction of docx elements in HTML. Deviations and not supported features were identified and documented. The following documents were used to test the base functionality.<br /><a href=".\d20534f0-1220-4cb8-af98-02a5156369b1">Functional Test Documents</a><br /><br /><b>Test coverage</b><br />Besides the functional tests, the following documents were used as test coverage documents. They include real world documents to reproduce the end-user scenarios.<br /><a href=".\87b7ac75-d93b-4f19-9421-bac9e7122beb">Test Coverage 1</a><br /><a href=".\439e9bd2-f57b-4e42-ae0a-de2bb054ae03">Test Coverage 2</a><br /><a href=".\4f6dcf36-b848-45ba-a1cc-f45885533da8">Test Coverage 3</a><br /><a href=".\2df7df32-ea5f-4ac8-bf8f-d50d60e496a9">Test Coverage 4</a><br /><a href=".\7e126266-73f8-495d-9f76-b4a6b8d6a3be">Test Coverage 5</a><br /><br /><br />The Test Defect metrics based on the above tests can be viewed <a href=".\e987ff81-fe73-45a3-b623-4b1324511b06">here</a><br /><br /><b>Regression tests</b><br />Regression tests after builds were done using the <a href=".\00f7e98e-19f9-412c-bec0-da9a2b5f4af8">Regression Test Documents</a><br />
+<h2>November CTP Release Features</h2>The following list of features which are included in the release November 2008 CTP release
+<ul><li>Core transformation framework </li>
+<li>Browser plug-ins for Firefox 3.0.x on Windows XP, Vista, 2003, 2008 and Linux (OpenSUSE 11.0)</li>
+<li>Command-line interface for converting Word 2007 documents to xHTML for Windows and Linux</li>
+<li>Word Document features including translation of </li>
+<li>Font types </li>
+<li>Images </li>
+<li>Text styles </li>
+<li>Tables </li>
+<li>Hyperlinks </li>
+<li>Background color</li>
+<li>VML to SVG Conversion (Diagram)
+<ul><li>Rectangle</li>
+<li>Oval </li>
+<li>Rounded Rectangle</li>
+<li>Fill colors</li>
+<li>Stroke</li></ul></li></ul>
+
+<h2>FAQ (Frequently Asked Questions)</h2>
+<b>Q. Where can I find the installation files?</b><br /><i>A.</i> Head over to the Releases section and select the latest release. The Windows installer is called <i>OpenXMLViewer</i>win<i>firefox.xpi</i>. The linux installer is called <i>OpenXMLViewer</i>linux<i>firefox.tar</i>.<br /><br /><b>Q. I found some undocumented issues. What do I do about this?</b><br /><i>A.</i> You can log issues, suggestions, feedback in the <a href="http://www.codeplex.com/OpenXMLViewer/WorkItem/List.aspx">Issue Tracker</a>. We&#39;d love to hear from you. So do provide your feedback. We look forward to this.<br /><br /><b>Q. I have installed the plug-in on Linux. The plug-in still does not show up in Firefox. What should I do?</b><br /><i>A.</i>  The following steps may be required to get the plug-in to come up on Linux. <br />  1. Ensure that the user has read permissions to /usr/lib/mozilla/plugins directory<br />  2. run the following script as the logged in user after shutting down firefox:<br />  &gt; ln -s /usr/lib/mozilla/plugins/NPDOCX.so  ~/.mozilla/plugins/NPDOCX.so<br /><br />  If the plugins folder does not exist in the ~/.mozilla folder, create the plugins folder and retry the above link.<br /><br />  3. Ensure that /usr/local/lib entry exists in /etc/ld.so.conf<br />  4. Restart the OS and try again.<br /><br />  If the above steps donot work, please log an entry in the <a href="http://www.codeplex.com/OpenXMLViewer/WorkItem/List.aspx">Issue Tracker</a> with the details of Firefox version info and OS version info.<br /><br /><b>Q. Is there a linux uninstallation/cleanup script?</b><br /><i>A.</i> Run <a href=".\b4394979-5a41-4754-9efc-d9e953cd1da5">this script file</a> from the commandline to cleanup the installation of the plugin/commandline application.</div><div class="ClearBoth"></div>

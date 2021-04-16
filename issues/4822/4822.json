@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Email address links are broken and don't work in the HTML output.\n \nA hyperlink containing an email address will use the URL from the last (unrelated) email address and output it into the link, then append the email address. This generates invalid URLs that are part website, part email address. For example, the final link in the attached document is output like this:\n      http://www.example.com/mailto:notifications@codeplex.commailto:subsequent@example.commailto:another_email@example.com\n \nIt have appended each email address to the last URL. The URL doesn't work, and depending on your browser it might throw up security warnings. Firefox proudly announces when you click the link \"This may be an attempt to trick you\".",
+    "LastUpdatedDate": "2013-02-21T16:52:14.05-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "OpenXMLViewer",
+    "ReportedDate": "2009-11-11T22:10:40.767-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Email links appended to previous link",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 4822
+  },
+  "FileAttachments": [
+    {
+      "FileId": 1740,
+      "FileName": "BrokenEmailLinks.docx",
+      "DownloadUrl": ".\\1740"
+    }
+  ],
+  "Comments": []
+}

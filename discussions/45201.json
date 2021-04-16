@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "150749",
+    "ThreadId": "45201",
+    "Html": "i need to perform this translation server side. <br><br>Is this posible with this code bae ?<div><br></div><div><br></div>",
+    "PostedDate": "2009-01-25T13:08:54.403-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "150770",
+    "ThreadId": "45201",
+    "Html": "For anyone else. Its very easy.<div><br></div><div>Just the Program and the XSLT file is needed.<br><br>There are bugs in that Locks are being held when using File System Callls. This is easy to fix by wrapping the calls with using{ ..}.</div><div><br></div>",
+    "PostedDate": "2009-01-25T15:13:38.17-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "163679",
+    "ThreadId": "45201",
+    "Html": "Hi,<br>\r\n<br>\r\n It is possible to use the translation on the server side. <br>\r\n<br>\r\nThe .cs codebase is available as is, since we are working with the C++ port for the translator. The serverside scenario can be done using the commandline application as well. <br>\r\n<br>\r\nThe commandline application takes in the input file and the output directory, and generates the xhtml file. This can be used to render documents as HTML on the server side. <br>\r\n<br>\r\nWe are in the process of enhancing the server side support using the commandline application. <br>\r\n<br>\r\nWatch this site for updates shortly.<br>\r\n<br>\r\nBest regards,<br>\r\nAnand\r\n",
+    "PostedDate": "2009-03-02T19:52:22.7-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

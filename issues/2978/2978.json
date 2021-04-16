@@ -1,0 +1,56 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hello devs !!\nFirst, I'm french so excuse my english.\n \nI'm using a portable edition of firefox (3.0.5) and I just want to make OpenXMLViewer working in portables editions of firefox because the program search for files in:\n\"C:\\Documents and Settings\\Ordi\\Application Data\\Mozilla\\Firefox\\Profiles\" and there is no files here (goto illustration)\nIs it possible to make OpenXMLViewer.exe searching files in parent folder ?",
+    "LastUpdatedDate": "2013-02-21T16:52:26.373-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "OpenXMLViewer",
+    "ReportedDate": "2008-12-25T09:21:19.863-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "PortableFirefox[win32]: OpenXMLViewer for portable edition",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 2978
+  },
+  "FileAttachments": [
+    {
+      "FileId": 1383,
+      "FileName": "capture3.jpg",
+      "DownloadUrl": ".\\1383"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "Hi Harry,\r\n\r\n We dont support Portable edition of Firefox. So this feature will not work with the current release. However, we will consider this as a feature request and plan for the same in the future releases. Thanking you for the feedback.\r\n\r\nBest regards,\r\nAnand",
+      "PostedDate": "2009-01-12T03:44:47.523-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T16:52:26.373-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

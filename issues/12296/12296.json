@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "In a table where there are two rows laid out like:\n\n```\n+------------------------------+\n|    A  |       B       |    C    |\n+       |--------------|         +\n|        |  D   |  E    |         |\n+------------------------------+\n```\n\nThat is, first column spans both rows, two middle cells are merged on the top row, and last column spans both rows, the converted result does not count cell \"B\" as two cells and thus fails to find the merged cell from row 2 under cell \"C\".\n\nThe logic as written, which simply counts elements, will not work--the processor must take into account any horizontal spans.",
+    "LastUpdatedDate": "2015-12-02T12:39:10.087-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "OpenXMLViewer",
+    "ReportedDate": "2015-12-02T12:03:43.22-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Calculation of row spans does not account for horizontal spans",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 12296
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "In my code that cribs the table processing from this project, I implemented this function:\r\n\r\n```\n  <xsl:function name=\"local:cellPos\" as=\"xs:integer\">\n    <xsl:param name=\"cell\" as=\"element()\"/>\n    <xsl:variable name=\"cellCounts\" as=\"xs:integer*\"\n      select=\"for $c in $cell/preceding-sibling::w:tc\n                  return if ($c/w:tcPr/w:gridSpan/@w:val)\n                            then xs:integer($c/w:tcPr/w:gridSpan/@w:val)\n                            else 1\n                    \"\n    />\n    <xsl:message> + [DEBUG] local:cellPos: cellCounts=\"<xsl:sequence select=\"$cellCounts\"/>\"</xsl:message>\n    <xsl:variable name=\"result\" as=\"xs:integer\"\n       select=\"sum($cellCounts, 1)\"\n    />\n    <xsl:message> + [DEBUG] local:cellPos: result=\"<xsl:sequence select=\"$result\"/>\"</xsl:message>\r\n\r\n    <xsl:sequence select=\"$result\"/>\n  </xsl:function>\n  \n```\r\n\r\nI then use this in place of the sibling counts to determine cells above and below the current cell:\r\n\r\n```\n    <xsl:variable name=\"curCellPos\" as=\"xs:integer\" select=\"local:cellPos(.)\"/>\r\n\r\n...\n              <xsl:variable name=\"belowCurCell\"\n                select=\"$myRowInContext/following-sibling::*//w:tc[count(ancestor::w:tbl)=$tblCount][$curCellPos = local:cellPos(.)]\"/>\r\n\r\n              <xsl:variable name=\"mergesAboveMe\"\n                select=\"count($myRowInContext/preceding-sibling::*[(descendant-or-self::*[name()='w:tc'])[$curCellPos = local:cellPos(.)][descendant-or-self::*[name()='w:vMerge']]])\"/>\n              <xsl:variable name=\"mergesAboveNextRestart\"\n                select=\"count($NextRestartInContext/preceding-sibling::*[(descendant-or-self::*[name()='w:tc'])[$curCellPos = local:cellPos(.)]])\"/>\r\n\r\n```\r\n\r\nBased on my initial testing, this works as expected and correctly calculates the row span of the last column",
+      "PostedDate": "2015-12-02T12:39:10.087-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

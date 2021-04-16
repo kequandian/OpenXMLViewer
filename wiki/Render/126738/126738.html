@@ -1,0 +1,31 @@
+<div class="wikidoc"><h1>Installation Guidelines</h1>(Download a DOCX version of the Installation Guidelines for the web <a href=".\6c5bfd22-b80b-49cf-b53c-9d5637a27400">here</a>)<br />(Download a DOCX version of the Installation Guidelines for the commandline <a href=".\c9409564-6547-4dd3-90a3-a4a4ee140a9c">here</a>)<br /><br />This section contains installation information for the various platforms supported by the OpenXMLViewer project. <br />The installers are platform specific and follow the naming convention as below:<br /><i>&lt;plugin name&gt; </i> &lt;os&gt; <i> &lt;browser&gt;.&lt;type&gt;</i><br /><br /><br />Eg. The Windows installer is called OpenXMLViewer <i> win </i> firefox.xpi. <br />For Linux, the same is called OpenXMLViewer<i> linux </i> firefox.xpi<br /><br />The installers are packaged in a zip/tar file containing the above installers and supporting files/documentation.<br />
+<h1>Commandline utility installation</h1>
+The installation files are named as below <br /><br />Eg. The Windows installer is called OpenXMLViewer <i> win </i> cmd.xpi. <br />For Linux, the same is called OpenXMLViewer<i> linux </i> cmd.xpi.<br /><br />The installers are packaged in a zip file containing the above installers and supporting files/documentation.  The commandline interface is called OpenXMLViewer.exe on windows and OpenXMLViewer on linux.<br /><br /><b>MS Windows XP, Vista, 2003, 2008 Server</b><br /><br />Extract the files from the zip to the required folder. <br /><br /><b>Linux</b><br /><br />Root access/install permissions is required in order to install the files. Write access to /usr/local/lib and /usr/local/bin is required for the installation to be successful.<br />Download the tar archive and extract it to a local directory.<br /><br />&gt; tar –xvf OpenXMLViewer <i> linux </i> cmd.tar<br />&gt; cd OpenXMLViewer <i> linux </i> cmd<br />&gt; ./install.sh<br /><br />This will install the files to /usr/local/lib and /usr/local/bin folders<br /><br />
+<h1>Browser plug-in installation</h1>
+<h2>MS Windows XP, Vista, 2003, 2008 Server</h2>
+The OpenXML Viewer Firefox plug-in for MS Windows can be downloaded <a href="http://www.codeplex.com/OpenXMLViewer/Release/ProjectReleases.aspx?ReleaseId=19713">here</a><br />
+<ul><li>Extract the zip file to your local folder. </li>
+<li>The zip file contains the Readme.txt, the License.txt file and the Firefox extension installer OpenXMLViewer <i> win </i> firefox.xpi.</li>
+<li>Open the .xpi file using firefox. The codesigned plugin information is displayed on the screen, signed against MindTree Limited.</li></ul>
+<img src="http://download-codeplex.sec.s-msft.com/Download?ProjectName=OpenXMLViewer&DownloadId=50134" alt="Install.jpg" title="Install.jpg" />
+<ul><li>Click on the Install Now button. </li></ul>
+<br /><img src="http://download-codeplex.sec.s-msft.com/Download?ProjectName=OpenXMLViewer&DownloadId=50135" alt="InstallComplete.jpg" title="InstallComplete.jpg" />
+<ul><li>Once the plugin is installed, firefox prompts for a restart. Restart firefox as prompted.</li>
+<li>Once firefox is restarted, navigate to Tools&gt;Add ons. In the extensions tab, OpenXMLViewer should be visible.</li></ul>
+
+<h2>Linux</h2>
+<b>Prerequisites</b><br />Root access/install permissions is required in order to install the files. Write access to /usr/local/lib and /usr/lib/mozilla is required for the installation to be successful.<br />
+<ul><li><a href="http://www.codeplex.com/OpenXMLViewer/Release/ProjectReleases.aspx?ReleaseId=19713">Download</a> the tar archive and extract it to a local directory. </li></ul>
+ &gt; tar –xvf OpenXMLViewer <i> linux </i> firefox.tar<br /> &gt; cd OpenXMLViewer <i> linux </i> firefox<br /><br /><b>Step 1</b>
+<ul><li>Open a Super User shell (su)</li>
+<li>Execute install.sh script. This will install the plug-in files and create the necessary symbolic links in /usr/local/lib folder.</li></ul>
+<br /><b>Step 2</b>
+<ul><li>Open the OpenXMLViewer <i> linux </i> firefox.xpi with Firefox after logging in as the user. This will in-stall the plugin for Firefox for the particular user. This is similar to the Windows installation (see above)</li>
+<li>Restart Firefox. The plugin should be present in Tools&gt;Add-ons&gt;Plugins.</li></ul>
+<br />For installing the OpenXMLViewer plug-in for other users, log in as the required user. Open the OpenXMLViewer <i> linux </i> firefox.xpi using Firefox. The plug-in will be installed for the user.<br />
+<h2>Uninstalling the plugin</h2><ul><li>To uninstall the plug-in from Firefox, </li>
+<li>Open Firefox</li>
+<li>Navigate to Tools&gt;Addons&gt;Extensions</li>
+<li>Click on the Uninstall button corresponding to the plug-in “OpenXMLViewer”.</li>
+<li>Restart firefox</li></ul>
+</div><div class="ClearBoth"></div>

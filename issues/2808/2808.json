@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Both the firefox browser and command line viewer installed fine on my Fedora9 system. When open a .docx file with Firefox I get the following message:\nFile Not Found \nFirefox can't find the file at /DocX175670952/output.xhtml\n \nFurther, I checked that no file named output.xhtml was anywhere on my home partition or in /tmp.\nIn response to the command line\n/usr/local/bin/OpenXMLViewer /home/olin/Desktop/MT1_oct03.docx  /home/olin/Desktop/\n \nI get the response\n********************************************************************************\n********************************************************************************\n \n                        Microsoft OpenXML Document Viewer\n \n********************************************************************************\n********************************************************************************\n \n \n \nFor more help, Please visit at  http://www.codeplex.com/OpenXMLViewer/ \n \n \n \nThe specified file (null)/DocX175176124//input.docx does not exist, please enter the correct file path.\n \nThese seem related and likely an enviroment variable problem.",
+    "LastUpdatedDate": "2013-02-21T16:52:26.577-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "OpenXMLViewer",
+    "ReportedDate": "2008-12-05T20:19:24.74-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "path failure from linux",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 2808
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "As you have guessed, it seems to be a problem with environment variable. The TMPDIR variable should be present pointing to the temp folder of the OS.",
+      "PostedDate": "2008-12-05T22:38:01.297-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T16:52:26.577-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

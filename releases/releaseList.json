@@ -1,0 +1,134 @@
+[
+  {
+    "Id": "0",
+    "Name": "November 2008 Community Technology Preview",
+    "DevelopmentStatus": "Beta",
+    "Description": "The OpenXML Document Viewer team is pleased to announce the release of the first version of the Open XML to HTML project. The [url:OpenXML Document Viewer project|http://www.codeplex.com/openxmlviewer] provides plug-ins and tools to view MS Word 2007 documents on platforms where Word 2007 is not available. This is achieved by using the OpenXMLViewer browser plug-in or the command line interface to convert the Word document (.docx) into HTML. \n\nThe project has been released as an open source project under the [url:MS-PL license|http://www.codeplex.com/OpenXMLViewer/license]\n\nThe focus of this release is around providing a reusable OpenXML to HTML engine that can be leveraged to  build more complex solutions. \n\nThe _*installation guidelines*_ for the plug-in is available [url:here|http://www.codeplex.com/OpenXMLViewer/Wiki/View.aspx?title=Installation%20Guidelines].\n\n The project roadmap can be found [url:here|http://www.codeplex.com/openxmlviewer]\n \nThe detailed release notes are available in the Downloads & Files section above.\n\nWe are thrilled about making this initial version available to you and look forward to [url:your comments|http://www.codeplex.com/OpenXMLViewer/Thread/List.aspx]. \n\nFollowing are the high-level features we have implemented in this release:\n\n* Core transformation framework\n* Browser plug-ins for Firefox 3.0.x on Windows and Linux\n* Word Document features including translation of \n** font types\n** images \n** text styles \n** diagrams \n** tables\n** hyperlinks \n\nPlease give the OpenXML Viewer a try, share you [url:feedback|http://www.codeplex.com/OpenXMLViewer/WorkItem/List.aspx] with us, join the project [url:discussion|http://www.codeplex.com/OpenXMLViewer/Thread/List.aspx]! \n\n\n - *The OpenXML Viewer Team*\n",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2009-04-05T21:46:25.377-07:00",
+    "Files": [
+      {
+        "Id": "3cc4132e-5e30-49f7-b46d-6beccce4a4bc",
+        "FileName": "OpenXMLViewer_win_firefox.zip",
+        "Url": "./0/3cc4132e-5e30-49f7-b46d-6beccce4a4bc",
+        "Type": "Application",
+        "UploadDate": "2009-01-19T01:46:19.157-08:00"
+      },
+      {
+        "Id": "994192d9-a112-4c34-95b8-3fd75acf8d25",
+        "FileName": "OpenXMLViewer_linux_firefox.tar",
+        "Url": "./0/994192d9-a112-4c34-95b8-3fd75acf8d25",
+        "Type": "Application",
+        "UploadDate": "2008-12-02T04:49:53.62-08:00"
+      },
+      {
+        "Id": "b9ee7365-bdbb-4091-8468-0314dc530a78",
+        "FileName": "OpenXMLViewer_linux_src.tar",
+        "Url": "./0/b9ee7365-bdbb-4091-8468-0314dc530a78",
+        "Type": "Source Code",
+        "UploadDate": "2008-12-02T02:11:18.187-08:00"
+      },
+      {
+        "Id": "734a3e3b-ba5f-40c6-b300-853e820a6cf6",
+        "FileName": "OpenXMLViewer_win_src.zip",
+        "Url": "./0/734a3e3b-ba5f-40c6-b300-853e820a6cf6",
+        "Type": "Source Code",
+        "UploadDate": "2008-11-26T06:44:57.867-08:00"
+      },
+      {
+        "Id": "e3a9bc1f-dd44-4381-8b09-57f35fd1bc90",
+        "FileName": "OpenXML_Viewer_Release_Note.doc",
+        "Url": "./0/e3a9bc1f-dd44-4381-8b09-57f35fd1bc90",
+        "Type": "Documentation",
+        "UploadDate": "2008-11-26T05:09:13.27-08:00"
+      },
+      {
+        "Id": "369ebaf6-97af-401a-8f15-583b5fcb8970",
+        "FileName": "OpenXMLViewer_linux_cmd.tar",
+        "Url": "./0/369ebaf6-97af-401a-8f15-583b5fcb8970",
+        "Type": "Application",
+        "UploadDate": "2008-12-02T05:15:09.627-08:00"
+      },
+      {
+        "Id": "35910f59-2624-4a4d-8f54-16987a8395fc",
+        "FileName": "OpenXMLViewer_win_cmd.zip",
+        "Url": "./0/35910f59-2624-4a4d-8f54-16987a8395fc",
+        "Type": "Application",
+        "UploadDate": "2008-12-02T22:09:59.15-08:00"
+      }
+    ]
+  },
+  {
+    "Id": "1",
+    "Name": "OpenXMLViewer v1.0",
+    "DevelopmentStatus": "Stable",
+    "Description": "The OpenXML Document Viewer team is pleased to announce the OpenXMLViewer v1.0 Release of the OpenXML to HTML translation project. The OpenXML Document Viewer project provides plug-ins and tools to view MS Word 2007 documents on platforms where Word 2007 is not available. \n\nThis is achieved by using the OpenXMLViewer browser plug-in or the command line interface to convert the Word document (.docx) into HTML. The current release supports IE 7, IE 8, Opera 9.62, Firefox 3.1b browsers on the Windows OS and Opera 9.62 and Firefox 3.1b on Linux (OpenSUSE 11.0).\n\nThe project has been released as an open source project under the MS-PL license\n\nThe focus of this release is around providing a reusable OpenXML to HTML engine that can be leveraged to build more complex solutions. \n\nDocumentation and release details can be found on the [url: project website|http://www.openxmlviewer.com].\n\nWe also have a demo Job Site to demonstrate the server side functionality of the OpenXMLViewer project. You can test drive the application [url:here|http://www.openxmlviewer.com/default.aspx].\n\nThe detailed release notes are available in the Downloads & Files section above. The installation instructions can be found [url:here|http://openxmlviewer.com/installation.html]\n\nWe are thrilled to extend the OpenXMLViewer browser plug-in to Internet Explorer and Opera. We look forward to your comments. \n\nFollowing are the high-level features we have implemented in this release:\n\n\n* Browser plug-ins for Opera 9.62 on Windows and Linux\n* IE 7 and IE 8 on Windows\n Word Document features including translation of \n* Drawing shapes, including star, triangles, hexagons, lines and arrows\n* Image fill for drawing shapes\n* Document themes\n* Equations (MathML)\n* Cover pages\n* Support for VML (IE) and SVG (Opera/Firefox)\n\n*Note:* The Linux plug-ins are 32-bit binaries. They may not work correctly on a 64-bit OS/browser.\n\nPlease give the OpenXML Viewer a try, share you feedback with us, join the project discussion! ",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2009-05-15T04:20:58.757-07:00",
+    "Files": [
+      {
+        "Id": "38a8314e-4566-4145-9aa7-24ed10d08b55",
+        "FileName": "OpenXMLViewer_Win_Firefox.zip",
+        "Url": "./1/38a8314e-4566-4145-9aa7-24ed10d08b55",
+        "Type": "Application",
+        "UploadDate": "2009-04-24T06:30:54.167-07:00"
+      },
+      {
+        "Id": "9bd01239-81d7-4b02-9225-eaa9ea3642d7",
+        "FileName": "OpenXMLViewer_Win_IE.zip",
+        "Url": "./1/9bd01239-81d7-4b02-9225-eaa9ea3642d7",
+        "Type": "Application",
+        "UploadDate": "2009-04-27T03:22:48.007-07:00"
+      },
+      {
+        "Id": "57158e06-46e9-43b8-b283-436f2c7932b3",
+        "FileName": "OpenXMLViewer_Win_Opera.zip",
+        "Url": "./1/57158e06-46e9-43b8-b283-436f2c7932b3",
+        "Type": "Application",
+        "UploadDate": "2009-04-26T22:26:40.18-07:00"
+      },
+      {
+        "Id": "4c35ffc3-cf72-483a-afd1-19c2763e08e3",
+        "FileName": "OpenXMLViewer_Win_Cmd.zip",
+        "Url": "./1/4c35ffc3-cf72-483a-afd1-19c2763e08e3",
+        "Type": "Application",
+        "UploadDate": "2009-04-26T01:20:49.493-07:00"
+      },
+      {
+        "Id": "87ab8852-059d-4654-860c-556e94b859e2",
+        "FileName": "OpenXMLViewer_linux_firefox.tar",
+        "Url": "./1/87ab8852-059d-4654-860c-556e94b859e2",
+        "Type": "Application",
+        "UploadDate": "2009-04-22T04:31:00.997-07:00"
+      },
+      {
+        "Id": "8d2945bc-a584-45ab-84c6-5608d266c832",
+        "FileName": "OpenXMLViewer_linux_opera.tar",
+        "Url": "./1/8d2945bc-a584-45ab-84c6-5608d266c832",
+        "Type": "Application",
+        "UploadDate": "2009-04-22T04:58:35.69-07:00"
+      },
+      {
+        "Id": "29ddff6c-658e-4455-a3f6-6fbd96f5aa80",
+        "FileName": "OpenXMLViewer_linux_cmd.tar",
+        "Url": "./1/29ddff6c-658e-4455-a3f6-6fbd96f5aa80",
+        "Type": "Application",
+        "UploadDate": "2009-04-20T06:28:46.243-07:00"
+      },
+      {
+        "Id": "935c4e1b-ef74-4f66-b5ce-86db26499953",
+        "FileName": "Readme.docx",
+        "Url": "./1/935c4e1b-ef74-4f66-b5ce-86db26499953",
+        "Type": "Documentation",
+        "UploadDate": "2009-03-31T06:19:47.65-07:00"
+      },
+      {
+        "Id": "6b21c532-3b83-405f-a5bd-1409af334713",
+        "FileName": "OpenXMLViewer Jobsite.zip",
+        "Url": "./1/6b21c532-3b83-405f-a5bd-1409af334713",
+        "Type": "Source Code",
+        "UploadDate": "2009-04-07T05:56:48.21-07:00"
+      }
+    ]
+  }
+]

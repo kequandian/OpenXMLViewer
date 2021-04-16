@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "150771",
+    "ThreadId": "45204",
+    "Html": "the paragraph has exactly the same style so i dont see why so many spans are needed in the html ?<br><br>This is how word stories it because it needs to manage the data in little chunks to enable tracking and translation ?",
+    "PostedDate": "2009-01-25T15:20:39.73-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "163680",
+    "ThreadId": "45204",
+    "Html": "Hi,<br>\r\n<br>\r\n You are correct in assuming that Word stores data in chunks. These chunks corresponds to the user session during which it was entered into the document.<br>\r\n<br>\r\nThe .docx file is a zip package. So just rename the document to .zip. Uncompress the files to the desired folder. You will find a collection of xml files. The xml files contain all the information to recreate the word document.<br>\r\n<br>\r\nFor more details on the file format, you can look at <br>\r\n<br>\r\n<a href=\"http://www.ecma-international.org/publications/standards/Ecma-376.htm\">http://www.ecma-international.org/publications/standards/Ecma-376.htm</a><br>\r\n<a href=\"http://en.wikipedia.org/wiki/Office_Open_XML\">http://en.wikipedia.org/wiki/Office_Open_XML</a><br>\r\n<a href=\"http://openxmldeveloper.org/default.aspx\">http://openxmldeveloper.org/default.aspx</a><br>\r\n<br>\r\nBest regards<br>\r\nAnand\r\n",
+    "PostedDate": "2009-03-02T19:57:04.193-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

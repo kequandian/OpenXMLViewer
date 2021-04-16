@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Dear Sirs.\nThis is Grate Product but there are some problems.\n \n1) Legacy List Incorect Conversion\n2) When Save Document from Word as html it looks better that with your convertor\n \nhere is an attached file.\nPlease check it.\n \nP.S. This document in in Georgian Language, but anyway you will see problems.",
+    "LastUpdatedDate": "2013-02-21T16:52:14.41-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "OpenXMLViewer",
+    "ReportedDate": "2009-05-31T14:27:12.897-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Conversioning Problems",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 3705
+  },
+  "FileAttachments": [
+    {
+      "FileId": 1585,
+      "FileName": "KB6520081.docx",
+      "DownloadUrl": ".\\1585"
+    }
+  ],
+  "Comments": []
+}

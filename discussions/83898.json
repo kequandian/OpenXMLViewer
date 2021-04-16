@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "288121",
+    "ThreadId": "83898",
+    "Html": "<p>HI,</p>\r\n<p>&nbsp;&nbsp;&nbsp;&nbsp; I have used the OpenXML Viewer and DocX2Html.xslt for converting docx to html.All the things are working fine,but there is some things are missing</p>\r\n<p>like alignment and images.In html page&nbsp; the image src is came like &quot;word/media/imagename&quot; so it is not displayed on the html page(there is no such path,only xml file is created).</p>\r\n<p>Is there any modification needed(HandleImage method is used for image handling),please help!!.i am using c#.</p>\r\n<p>&nbsp;</p>\r\n<p>Thanks</p>\r\n<p>Sun</p>",
+    "PostedDate": "2010-02-10T02:11:16.363-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

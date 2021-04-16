@@ -1,0 +1,71 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Text is not showing in the right place.",
+    "LastUpdatedDate": "2017-11-27T15:03:41.163-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "OpenXMLViewer",
+    "ReportedDate": "2008-11-24T06:11:11.003-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Text is not showing in the right place",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 2702
+  },
+  "FileAttachments": [
+    {
+      "FileId": 1245,
+      "FileName": "Shapes test4.docx",
+      "DownloadUrl": ".\\1245"
+    },
+    {
+      "FileId": 1246,
+      "FileName": "output4.xhtml",
+      "DownloadUrl": ".\\1246"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "Output file",
+      "PostedDate": "2008-11-24T06:12:46.627-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2008-11-24T06:12:47.41-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T16:52:27.12-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2017-11-27T15:03:41.163-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

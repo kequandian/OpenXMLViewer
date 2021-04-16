@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "180891",
+    "ThreadId": "53740",
+    "Html": "My Word document has multiple Heading 1 sections. I need have each Heading 1 section in the separate HTML file. What would be the best way to accomplish that?<br>\r\nThanks a lot for the help.<br>\r\n<br>\r\nDragan <br>\r\n<br>\r\nP.S. What can I do with images? Is there a plan to support images?\r\n",
+    "PostedDate": "2009-04-18T16:29:42.627-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "181899",
+    "ThreadId": "53740",
+    "Html": "Hi,<br>\r\n<br>\r\n We currently donot support Page Headers in the conversion, since there is no pagination built into HTML as such. A workaround could be to use frames, iFrames or DIVs to display the headings, and render the rest of the document in the content frame. <br>\r\n<br>\r\n----------------------------------------------------------<br>\r\nHeader Frame/DIV                                                                 <br>\r\n----------------------------------------------------------<br>\r\nContent Frame (Document converted to HTML)                                                               <br>\r\n<br>\r\n<br>\r\n<br>\r\n<br>\r\n----------------------------------------------------------<br>\r\n<br>\r\nDo provide us a more detailed scenario. We will be very happy to help you with your scenario.<br>\r\n<br>\r\nBest regards,<br>\r\nAnand\r\n",
+    "PostedDate": "2009-04-21T10:29:02.83-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "181900",
+    "ThreadId": "53740",
+    "Html": "Images are already supported with the current release of the plugin (November CTP)<br>\r\n<br>\r\n//Anand\r\n",
+    "PostedDate": "2009-04-21T10:29:53.617-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

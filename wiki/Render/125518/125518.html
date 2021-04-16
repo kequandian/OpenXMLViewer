@@ -1,0 +1,28 @@
+<div class="wikidoc"><h1>Technical and architectural overview</h1>(You can download a DOCX version of the Technical overview <a href=".\cf594aa2-5835-437d-818d-1310b9ce0d9b">here</a><br />
+<h2>Summary</h2>The Microsoft OpenXmlViewer Xtensions project consists of the development of a browser plugin that is cross browser and cross platform, which will render OpenXML Word documents (docx) in html. <br /><br />This is the technical basis for pilot phase of the OpenXml Viewer Xtensions project. This document covers the following topics:
+<ul><li>Architectural Considerations </li>
+<li>Logical Architecture.</li></ul>
+
+<h2>Architectural Considerations</h2><b>Technology Considerations</b><br />The Microsoft OpenXml Viewer is a cross browser cross OS plugin. The core of the application has to be OS independent. Therefore, the application is developed using C++.<br /><br /><b>Future possibilities</b><br />The generated html from the docx file can be rendered using silverlight and similar rich platforms. The same can be used in a server scenario to render docx files as html.<br />
+<h2>Tool Considerations</h2>The list of language and tools used is given below:<br /><br /><table><tr><th> # </th><th> Tool/Technology </th><th> Usage </th></tr>
+<tr><td> 1 </td><td> C++ </td><td> Core technology platform</td></tr>
+<tr><td> 2 </td><td> Xalan (c++) </td><td> XSLT Processing</td></tr>
+<tr><td> 3 </td><td> Xerces (c++) </td><td> XML Processing</td></tr>
+<tr><td> 4 </td><td> zlib</td><td> Docx (zip) file decompressing</td></tr>
+<tr><td> 5 </td><td> Firefox </td><td> Plugin extensions</td></tr></table><br />
+<h2>Logical Architecture</h2><img src="http://download-codeplex.sec.s-msft.com/Download?ProjectName=OpenXMLViewer&DownloadId=50149" alt="logical&#32;arch.JPG" title="logical&#32;arch.JPG" /><br />
+<h3>Application Interface</h3>This layer provides the user interface for the application. 
+<ul><li>Browser plugin interface - The browser plug-in interface (specific interfaces for different brows-ers) will allow the document transformation framework to be leveraged across different browsers. </li>
+<li>OS/File system interface – This interface will be a command-line based interface for opening docx files from the file system. Docx files will be registered against this interface. The application will render the docx files in html.</li></ul>
+
+<h3>Transformation Service</h3>The Transformation Service is the core of the application. Along with the XSLT transform, this service will convert the input docx file(s) into html. <br /><br />The bulk of the conversion of XML to HTML will be done using XSLT (Extensible Stylesheet Language Transformations)<br />
+<h3>Framework Helpers</h3>The Framework Helpers are 3rd party components that provide the following functionality.
+<ul><li>Xalan – This framework provides XSLT transformation capabilities to the Transformation Service</li>
+<li>Xerces – This framework provides XML support for working with the docx files and other xml files.</li>
+<li>zlib – Docx is a zip compressed file as specified by Open Packaging Conventions (OPC). Zlib li-brary will be made use of to uncompress the zip package.</li></ul>
+
+<h3>Utilities</h3>The utilities provide supporting functionality such as:
+<ul><li>File system access</li>
+<li>Logging</li>
+<li>Conversion of VML to SVG</li>
+<li>XML Helper methods</li></ul></div><div class="ClearBoth"></div>

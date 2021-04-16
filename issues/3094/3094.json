@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "this method ASSUME where the XSLT files are.\n \nPlease change ARGS so that they are passed on the args !!\nOr provide an override.\n \nJust makes it more extensible.",
+    "LastUpdatedDate": "2013-02-21T16:52:25.987-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "OpenXMLViewer",
+    "ReportedDate": "2009-01-25T14:34:56.843-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "private static System.IO.Stream LoadTransformXsl()",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 3094
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hi,\r\n \r\nThanks for the feedback. We are currently not maintaining the .CS code. We will however make the necessary changes and upload the source by the end of the milestone release.\r\n\r\nBest regards\r\nAnand",
+      "PostedDate": "2009-02-09T00:23:08.503-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T16:52:25.987-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

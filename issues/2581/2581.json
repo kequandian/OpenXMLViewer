@@ -1,0 +1,80 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "When bullet points are present in the document, firefox crashes.",
+    "LastUpdatedDate": "2013-06-14T00:27:36.903-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "OpenXMLViewer",
+    "ReportedDate": "2008-11-12T20:24:37.86-08:00",
+    "Status": {
+      "Name": "Resolved",
+      "Id": 7
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Bullet points crash the browser",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 2581
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "The firefox does not crash anymore",
+      "PostedDate": "2008-11-19T20:58:15.157-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2008-11-19T20:58:15.783-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Working fine,Hence closing the issue.",
+      "PostedDate": "2008-11-20T12:22:17.387-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Bullet points not crash the browser,Hence closing the issue.",
+      "PostedDate": "2008-11-20T12:33:16.307-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T16:52:30.383-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-16T04:06:46.817-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-16T04:06:46.973-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-06-14T00:27:36.903-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

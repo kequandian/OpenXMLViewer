@@ -1,0 +1,90 @@
+[
+  {
+    "Id": "202631",
+    "ThreadId": "59858",
+    "Html": "<p>Using the command line:</p>\r\n<p><em>C:\\Users\\Chris\\Downloads\\OpenXMLViewer&gt;OpenXMLViewer in.docx C:\\Users\\Chris\\Downloads\\OpenXMLViewer FIREFOX</em></p>\r\n<p>Ends execution with:</p>\r\n<p><em>Microsoft OpenXML Document Viewer </em></p>\r\n<p><em>For more help, Please visit at&nbsp; http://www.codeplex.com/OpenXMLViewer/</em></p>\r\n<p><strong><em>Access Denied</em></strong></p>\r\n<p>Any ideas why?</p>\r\n<p>Version: Windows CMD Apr 26 <br> Operating System: Windows Vista Home Premium</p>\r\n<p>&nbsp;</p>",
+    "PostedDate": "2009-06-17T12:48:37.537-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "203988",
+    "ThreadId": "59858",
+    "Html": "<p>Hi,</p>\r\n<p>Could you kindly verify the same issue by copying the OpenXMLViewer folder contents to another location (say c:\\openxmlviewer) along with the files? This issue may be due to a&nbsp;file write permission restriction in the User\\Chris\\Downloads folder.</p>\r\n<p>Regards,</p>\r\n<p>Anand</p>",
+    "PostedDate": "2009-06-22T03:09:29.13-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "204106",
+    "ThreadId": "59858",
+    "Html": "<p>Hey Anand,</p>\r\n<p>Good to hear from you again.</p>\r\n<p>I thought the problem might involve a permission error, so (prior to the previous post): I copied the OpenXMLViewer contents to the C:\\ folder and to the C:\\User\\Chris\\Documents. I should have mentioned this in the first post, however none of the locations produced different results.</p>\r\n<p>Any other ideas?</p>\r\n<p>Thanks for all the help,</p>\r\n<p>Chris</p>\r\n<p>&nbsp;</p>",
+    "PostedDate": "2009-06-22T09:26:19.08-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "206537",
+    "ThreadId": "59858",
+    "Html": "<p>Hi Chris,</p>\r\n<p>Could you try this again with the word document on another folder? Also could you try running as another user with higher permissions (Run as..) and post the results here?</p>\r\n<p>Best regards,</p>\r\n<p>Anand</p>",
+    "PostedDate": "2009-06-29T03:48:55.897-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "206640",
+    "ThreadId": "59858",
+    "Html": "<p>Anand,</p>\r\n<p>Moving the word documents to different folders produced the same &quot;Access Denied&quot; result.</p>\r\n<p>However, going to Windows\\System32 and right clicking &quot;Run as adminstrator&quot; fixes the problem... is there any way to get this to work without having to go through the UAC dialog every time... i.e. running it as a standard user?</p>\r\n<p>Thanks,</p>\r\n<p>Chris</p>",
+    "PostedDate": "2009-06-29T08:35:11.51-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "207465",
+    "ThreadId": "59858",
+    "Html": "<p>Chris,</p>\r\n<p>&nbsp;Can you provide me with some more detail regarding where OpenXMLViewer.exe was present?</p>\r\n<p>Regards,</p>\r\n<p>Anand</p>",
+    "PostedDate": "2009-07-01T03:15:31.417-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "222728",
+    "ThreadId": "59858",
+    "Html": "<p>I've put OpenXMLViewer.exe in the C:\\ drive, in C:\\Users\\Chris\\Documents, in C:\\Users\\Chris\\Downloads etc etc.</p>\r\n<p>No matter where I put the exe file, it fails. I've also tried setting the destination directory to the C:\\ drive, in C:\\Users\\Chris\\Documents, in C:\\Users\\Chris\\Downloads etc etc.</p>\r\n<p>And by fails I mean that the xhtml file generates, but nothing is written to the word/media folder itself. The directory is blank and an access deined error appears in the command prompt. I'm almost certain that this means that the program fails when writing the images from the DOCX file to disk.</p>\r\n<p>Any more ideas? I'm just lost on this one.</p>",
+    "PostedDate": "2009-08-12T14:54:00.203-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "229509",
+    "ThreadId": "59858",
+    "Html": "<p>Hi Chris,</p>\r\n<p>&nbsp;I believe that the above problem is due to insufficient rights for the logged in user. Could you try giving %TEMP% folder write access for the user and try the same? The error typically is due to insufficient rights allotted for the user.</p>\r\n<p>Do let me know how this turns out.</p>\r\n<p>Regards</p>\r\n<p>Anand</p>",
+    "PostedDate": "2009-08-31T16:38:52.927-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "229718",
+    "ThreadId": "59858",
+    "Html": "<p>Hey Anand,</p>\r\n<p>Good to hear from you.</p>\r\n<p>I gave full control to both C:\\Windows\\Temp and the local temp (C:\\Users\\Chris\\AppData\\Local\\Temp\\)... still no luck.</p>\r\n<p>Thanks, Chris</p>",
+    "PostedDate": "2009-09-01T07:34:48.46-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "233446",
+    "ThreadId": "59858",
+    "Html": "<p>Welcom.</p>\r\n<p>&nbsp;</p>\r\n<p>I have exactly the same problem.</p>\r\n<p>I use converter in ASP.NET application, so i have to gave correct permissions to iis user (network service) to run this application.</p>\r\n<p>I already add %temp% full permissions, but it still not working. Image files are not safed in created subfolders, becouse of lack of permissions. If i run application as administrator, then it's no problem, they are created, but with normal user, it's problem.</p>",
+    "PostedDate": "2009-09-11T00:41:09.267-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "233462",
+    "ThreadId": "59858",
+    "Html": "<p>I see, that there is some problem with running xcopy from network user.</p>\r\n<p>It's just not runned.</p>",
+    "PostedDate": "2009-09-11T01:30:14.12-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

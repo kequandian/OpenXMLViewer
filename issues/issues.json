@@ -1,0 +1,410 @@
+[
+  {
+    "Id": 2575,
+    "Title": "Big sized fonts issue"
+  },
+  {
+    "Id": 2576,
+    "Title": "Firefox plugin does not work on windows"
+  },
+  {
+    "Id": 2577,
+    "Title": "Double underline and dashed underline does not work"
+  },
+  {
+    "Id": 2578,
+    "Title": "Hyperlinks not working"
+  },
+  {
+    "Id": 2579,
+    "Title": "Paragraph lines not getting wrapped"
+  },
+  {
+    "Id": 2580,
+    "Title": "Bullets not working"
+  },
+  {
+    "Id": 2581,
+    "Title": "Bullet points crash the browser"
+  },
+  {
+    "Id": 2582,
+    "Title": "Firefox crashes with Assert failure"
+  },
+  {
+    "Id": 2601,
+    "Title": "Double Line Table is not working"
+  },
+  {
+    "Id": 2602,
+    "Title": "Comments are not working"
+  },
+  {
+    "Id": 2604,
+    "Title": "table of contents not appearing"
+  },
+  {
+    "Id": 2605,
+    "Title": "Borders are not working"
+  },
+  {
+    "Id": 2606,
+    "Title": "Crashing the Test Data file"
+  },
+  {
+    "Id": 2616,
+    "Title": "Left side border is cutting"
+  },
+  {
+    "Id": 2617,
+    "Title": "Text inside Table is not showing properly"
+  },
+  {
+    "Id": 2618,
+    "Title": "Selected Text file is not working."
+  },
+  {
+    "Id": 2626,
+    "Title": "Hyperlinks are not diaplaying."
+  },
+  {
+    "Id": 2627,
+    "Title": "Backgroung color Alignment is not working properly."
+  },
+  {
+    "Id": 2655,
+    "Title": "Page Numbers are not working"
+  },
+  {
+    "Id": 2656,
+    "Title": "Line Numbers are not working"
+  },
+  {
+    "Id": 2657,
+    "Title": "Cover Page is crashing"
+  },
+  {
+    "Id": 2658,
+    "Title": "Shadings not working"
+  },
+  {
+    "Id": 2659,
+    "Title": "Tables are not displaying propelry"
+  },
+  {
+    "Id": 2663,
+    "Title": "Left side text is cutting."
+  },
+  {
+    "Id": 2701,
+    "Title": "Text is not showing in the below attached file."
+  },
+  {
+    "Id": 2702,
+    "Title": "Text is not showing in the right place"
+  },
+  {
+    "Id": 2703,
+    "Title": "Shapes are cutting for the below file"
+  },
+  {
+    "Id": 2742,
+    "Title": "Bad command or filename"
+  },
+  {
+    "Id": 2808,
+    "Title": "path failure from linux"
+  },
+  {
+    "Id": 2978,
+    "Title": "PortableFirefox[win32]: OpenXMLViewer for portable edition"
+  },
+  {
+    "Id": 3083,
+    "Title": "File is crashing."
+  },
+  {
+    "Id": 3094,
+    "Title": "private static System.IO.Stream LoadTransformXsl()"
+  },
+  {
+    "Id": 3096,
+    "Title": "Program.cs main method is locking files"
+  },
+  {
+    "Id": 3104,
+    "Title": "Include Basic xlt convertor as part of Source Code"
+  },
+  {
+    "Id": 3268,
+    "Title": "Underlined text is not reansformed correctly"
+  },
+  {
+    "Id": 3352,
+    "Title": "Shapes are not working"
+  },
+  {
+    "Id": 3353,
+    "Title": "Stroke is not working in Firefox"
+  },
+  {
+    "Id": 3354,
+    "Title": "Text is not displaying"
+  },
+  {
+    "Id": 3355,
+    "Title": "Grouping is not woking"
+  },
+  {
+    "Id": 3356,
+    "Title": "Grouping is not woking"
+  },
+  {
+    "Id": 3357,
+    "Title": "Images are not working in Firefox"
+  },
+  {
+    "Id": 3358,
+    "Title": "Shapes are not displaying along with text"
+  },
+  {
+    "Id": 3359,
+    "Title": "Shapes are not displaying(L,R,LR,U,D,UD) in Fire fox"
+  },
+  {
+    "Id": 3360,
+    "Title": "Rotate transform is not working in Firefox"
+  },
+  {
+    "Id": 3361,
+    "Title": "Wrapping is not working."
+  },
+  {
+    "Id": 3362,
+    "Title": "Files crashing in FIrefox"
+  },
+  {
+    "Id": 3363,
+    "Title": "Alignment is not working"
+  },
+  {
+    "Id": 3364,
+    "Title": "Images are not apprearing in Mozilla and Opera"
+  },
+  {
+    "Id": 3365,
+    "Title": "Background color is not working"
+  },
+  {
+    "Id": 3366,
+    "Title": "Shapes and alignment is not diplaying correctly."
+  },
+  {
+    "Id": 3367,
+    "Title": "File is crashing"
+  },
+  {
+    "Id": 3368,
+    "Title": "Attached file crashes."
+  },
+  {
+    "Id": 3370,
+    "Title": "Text is not displaying properly"
+  },
+  {
+    "Id": 3371,
+    "Title": "Tab alignment not proper"
+  },
+  {
+    "Id": 3372,
+    "Title": "No fill color is not working."
+  },
+  {
+    "Id": 3373,
+    "Title": "Dashed Option is not working properly"
+  },
+  {
+    "Id": 3374,
+    "Title": "Long dashed line is shown as Solid dashed"
+  },
+  {
+    "Id": 3375,
+    "Title": "Border line is being shown for the border less triangle shape"
+  },
+  {
+    "Id": 3376,
+    "Title": "Gradient colors are not being reflected"
+  },
+  {
+    "Id": 3377,
+    "Title": "Opacity is not working for order shapes"
+  },
+  {
+    "Id": 3378,
+    "Title": "Shapes are not being displayed for &amp;quot;Order – Bring to Front&amp;quot;"
+  },
+  {
+    "Id": 3379,
+    "Title": "Positioning is not working"
+  },
+  {
+    "Id": 3380,
+    "Title": "Shapes are misplacing for Isosceles Triangle – Horizontal alignment"
+  },
+  {
+    "Id": 3383,
+    "Title": "Equations are not displaying properly"
+  },
+  {
+    "Id": 3384,
+    "Title": "The Background Color is not appearing in Mozilla"
+  },
+  {
+    "Id": 3385,
+    "Title": "Spacing is Incorrect"
+  },
+  {
+    "Id": 3386,
+    "Title": "Underline Feature is not working"
+  },
+  {
+    "Id": 3387,
+    "Title": "Text Color is always BLACK"
+  },
+  {
+    "Id": 3388,
+    "Title": "Text Overlapping"
+  },
+  {
+    "Id": 3389,
+    "Title": "Font Size is not as per the Doc"
+  },
+  {
+    "Id": 3390,
+    "Title": "Allignments not working for Equations"
+  },
+  {
+    "Id": 3412,
+    "Title": "Images not being Displayed in Mozilla"
+  },
+  {
+    "Id": 3417,
+    "Title": "Real World Document - Allignment Issue"
+  },
+  {
+    "Id": 3418,
+    "Title": "Real World Document - Allignment Issue"
+  },
+  {
+    "Id": 3419,
+    "Title": "Real World Document - Allignment Issue"
+  },
+  {
+    "Id": 3420,
+    "Title": "Real World Document - Allignment Issue"
+  },
+  {
+    "Id": 3438,
+    "Title": "Column rendering is not working."
+  },
+  {
+    "Id": 3439,
+    "Title": "Images- Position of Images is incorrect"
+  },
+  {
+    "Id": 3440,
+    "Title": "Shapes are misplacing in IE."
+  },
+  {
+    "Id": 3441,
+    "Title": "Real world doc issues - IE 8"
+  },
+  {
+    "Id": 3442,
+    "Title": "Issue with doc- Phys110HW03-04"
+  },
+  {
+    "Id": 3443,
+    "Title": "Issue with doc -Developing Super user"
+  },
+  {
+    "Id": 3444,
+    "Title": "Issue with Doc - BPOS_Showcase_Solution_Brief_Neudesic"
+  },
+  {
+    "Id": 3445,
+    "Title": "Issue with Doc - Officesharepointservertraining_Install Guide"
+  },
+  {
+    "Id": 3446,
+    "Title": "Issue with Doc - Quiz2_ThemesMaster pages"
+  },
+  {
+    "Id": 3447,
+    "Title": "Issue with Doc- The Report"
+  },
+  {
+    "Id": 3448,
+    "Title": "Issue with Doc- Hw3as09"
+  },
+  {
+    "Id": 3449,
+    "Title": "Dashed lines are not working in Opera"
+  },
+  {
+    "Id": 3451,
+    "Title": "Text box Issue"
+  },
+  {
+    "Id": 3452,
+    "Title": "Equations are not being displayed correctly in IE-8"
+  },
+  {
+    "Id": 3457,
+    "Title": "File crashing in Opera"
+  },
+  {
+    "Id": 3458,
+    "Title": "Equations file is crashing in both Opera and Firefox."
+  },
+  {
+    "Id": 3491,
+    "Title": "Equations- The Equation displayed is Incorrect"
+  },
+  {
+    "Id": 3492,
+    "Title": "Text box Issue"
+  },
+  {
+    "Id": 3493,
+    "Title": "File Crashing in Mozilla and Opera"
+  },
+  {
+    "Id": 3494,
+    "Title": "Shapes are misplacing in IE"
+  },
+  {
+    "Id": 3705,
+    "Title": "Conversioning Problems"
+  },
+  {
+    "Id": 4094,
+    "Title": "Does not support 'custom XML'"
+  },
+  {
+    "Id": 4822,
+    "Title": "Email links appended to previous link"
+  },
+  {
+    "Id": 5492,
+    "Title": "Images conversion problem"
+  },
+  {
+    "Id": 5502,
+    "Title": "Bullet are not working when synch  from document  to html"
+  },
+  {
+    "Id": 12296,
+    "Title": "Calculation of row spans does not account for horizontal spans"
+  }
+]

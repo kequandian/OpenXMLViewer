@@ -1,0 +1,27 @@
+#!bin/bash
+
+echo "------------------------------------"
+echo "Microsoft OpenXMLViewer Removal Tool"
+echo "------------------------------------"
+
+if (test -d ~/.mozilla/plugins) then
+	rm ~/.mozilla/plugins/NPDOCX.so
+fi;
+
+if (test -d /usr/lib/mozilla/plugins) then
+rm /usr/mozilla/plugins/NPDOCX.so
+rm /usr/mozilla/plugins/DocX2Html.xslt
+fi;
+
+if (test -d /usr/local/bin) then
+rm /usr/local/bin/OpenXMLViewer
+fi;
+
+if (test -d /usr/local/lib) then
+rm /usr/local/lib/libxerces*
+rm /usr/local/lib/libTransformationCore.so
+rm /usr/local/lib/libUtility.so
+rm /usr/local/lib/libxalan*
+fi;
+
+echo "Cleaning complete"

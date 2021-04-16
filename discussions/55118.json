@@ -1,0 +1,34 @@
+[
+  {
+    "Id": "186068",
+    "ThreadId": "55118",
+    "Html": "When I drop a .docx file, I get this:<br>\r\nFirefox can't find the file at /C:/DOCUME~1/P/LOCALS~1/Temp/DocX794266044/output.xhtml.<br>\r\n<br>\r\nAlthough that directory is created, and it contains four subdirectories and three files... output.xhtml is not one of them.<br>\r\n<br>\r\nExtension was installed here:<br>\r\nC:\\Documents and Settings\\P\\Application Data\\Mozilla\\Firefox\\Profiles\\1uxck8l8.Default User\\extensions\\OpenXMLViewer@Codeplex.com\\plugins<br>\r\n<br>\r\n<br>\r\n<br>\r\n",
+    "PostedDate": "2009-05-01T20:38:53.62-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "186190",
+    "ThreadId": "55118",
+    "Html": "Me either. All I get is code. But the program installed without a hitch. ",
+    "PostedDate": "2009-05-02T16:28:33.353-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "186284",
+    "ThreadId": "55118",
+    "Html": " Could you kindly provide more details with respect to the OS version, Firefox version, screenshots if possible, and the contents of the <a href=\"mailto:OpenXMLViewer@Codeplex.com\\plugins\">OpenXMLViewer@Codeplex.com\\plugins</a> folder?<br>\r\n",
+    "PostedDate": "2009-05-03T09:16:08.99-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "218503",
+    "ThreadId": "55118",
+    "Html": "<p>Same here. Win XP Home w/SP3 &amp; Firefox 3.0.12</p>\r\n<p>13 FIles in 5 Folders were created.&nbsp; No output file.</p>\r\n<p>Tiny one-page text document.&nbsp; MS Word converter fine on file, used as my workaround.&nbsp; Uninstalling this extension.</p>",
+    "PostedDate": "2009-08-02T12:22:13.4-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

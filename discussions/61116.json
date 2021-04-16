@@ -1,0 +1,34 @@
+[
+  {
+    "Id": "207234",
+    "ThreadId": "61116",
+    "Html": "<p>Hello, this is an awesome tool! &nbsp;I have been writing one of my own for some time now and got most of the functionality going. &nbsp;However i ran into a few snags:</p>\r\n<ul>\r\n<li>VML to SVG i could not figure out. &nbsp;How are you guys achieving this?</li>\r\n<li>Image placement doesnt translate well to HTML</li>\r\n</ul>\r\n<p>For the VML thing i assume you guys are just using an XSLT transform?</p>\r\n<p>For the images, how does the tool handle images that are placed by users dragging them? &nbsp;i.e. not in a nice little paragraph, but placed arbitrarily. &nbsp;Absolutely positioned elemnts in HTML lose text wrapping.</p>\r\n<p>Thanks</p>",
+    "PostedDate": "2009-06-30T13:52:47.92-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "207363",
+    "ThreadId": "61116",
+    "Html": "<p>Hi,</p>\r\n<p>Thanks a lot for the compliments. Excellent questions there. I will take them one by one.</p>\r\n<p>\r\n<ul>\r\n<li>VML to SVG - This is being handled in C++. We considered the option of using XSLT for the conversion. But since the VML present in word is embedded with Office tags, we considered that C++ would be a better way forward. Performance also was a consideration.</li>\r\n</ul>\r\n</p>\r\n<p>The conversion is handled inVML2SVG.cpp in the source files.</p>\r\n<p>\r\n<ul>\r\n<li>You are correct again with image placements. Handling arbitrary positioning of image and text wrapping is something we decided not to support in&nbsp;OpenXMLViewer, as there are multiple ways in which the text and images can be positioned.&nbsp;Hence, you may find that text wrap and image positioning&nbsp;may not be 100% accurate. However, it will&nbsp;work for most scenarios.</li>\r\n</ul>\r\n</p>\r\n<p>A similar case&nbsp;would be that of multiple column text. The support for the same was removed due to performance constraints.</p>\r\n<p>Cheers,</p>\r\n<p>Anand&nbsp;</p>",
+    "PostedDate": "2009-06-30T21:17:59.147-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "207650",
+    "ThreadId": "61116",
+    "Html": "<p>Thanks for the reply. &nbsp;I'll take a look at the VML2SVG. &nbsp;This validates my shortcomings :) &nbsp;I'm thinking if i am going to dig into the VML programatically, i'll try to convert to &lt;canvas&gt;. &nbsp;This way IE and FF(else) will be covered :)</p>",
+    "PostedDate": "2009-07-01T11:13:40.27-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "207806",
+    "ThreadId": "61116",
+    "Html": "<p>If licensing is not an issue, I suggest that you look into VectorConverter&nbsp;at Sourceforge. They have an XSLT based VML to SVG to Gif converter that works pretty well.</p>\r\n<p>&lt;canvas&gt; sounds like a good approach as well, with a little bit more of effort!</p>",
+    "PostedDate": "2009-07-01T22:02:58.2-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

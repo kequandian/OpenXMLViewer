@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "see attached documents.",
+    "LastUpdatedDate": "2013-06-14T00:27:36.74-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "OpenXMLViewer",
+    "ReportedDate": "2008-11-12T22:03:30.027-08:00",
+    "Status": {
+      "Name": "Resolved",
+      "Id": 7
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Firefox crashes with Assert failure",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 2582
+  },
+  "FileAttachments": [
+    {
+      "FileId": 1188,
+      "FileName": "plug-in-error.JPG",
+      "DownloadUrl": ".\\1188"
+    },
+    {
+      "FileId": 1189,
+      "FileName": "Hyper-V_Getting_Started.docx",
+      "DownloadUrl": ".\\1189"
+    }
+  ],
+  "Comments": []
+}
